@@ -6,5 +6,8 @@ import { UrlController } from "../controllers/UrlController";
 
 // router
 export async function urlRoutes(fastify: FastifyInstance, options: FastifyPluginOptions) {
-    fastify.get('/teste', UrlController.teste)
+    fastify.get('/getAllUrls', UrlController.getAllUrls)
+    fastify.get('/:shortCode', UrlController.redirectUrl)
+
+    fastify.post('/shortUrl', UrlController.shortUrl)
 }
