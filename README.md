@@ -58,7 +58,7 @@ This is a RESTful API designed to handle URL shortening, redirection and link an
 
 ```bash
 git clone https://github.com/Hugolelis/ShortUrlAPI.git
-cd your-repo
+cd ShortUrlAPI
 ```
 
 ### 📦 2. Install Dependencies
