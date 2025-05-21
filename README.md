@@ -43,11 +43,12 @@ This is a RESTful API designed to handle URL shortening, redirection and link an
 
 ### 🔗 UrlController
 
-| Method | Route         | Description             |
-|--------|---------------|-------------------------|
-| POST   | /api/login    | Authenticate user       |
-| POST   | /api/register | Register a new user     |
-| GET    | /api/profile  | Get logged-in user data |
+| Method | Route                | Description                                           |
+| ------ | -------------------- | ----------------------------------------------------- |
+| POST   | /api/url/shortUrl    | Generates a new shortened URL                         |
+| GET    | /api/url/getAllUrls  | Returns all shortened URLs                             |
+| GET    | /api/url/\:shortCode | Redirects to the original URL based on the short code |
+
 
 ---
 
