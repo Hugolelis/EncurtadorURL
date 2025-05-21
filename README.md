@@ -18,7 +18,7 @@ This is a RESTful API designed to handle URL shortening, redirection and link an
 - ⚙️ Node.js & Fastify 
 - 📘 TypeScript  
 - 🗃️ MongoDB
-- 
+
 ---
 
 ## 📂 Project Structure
