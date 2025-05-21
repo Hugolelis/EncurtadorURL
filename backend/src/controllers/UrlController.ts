@@ -36,14 +36,11 @@ export class UrlController{
             shortCode = nanoid(6)
         }
 
-        // generate date
-        const createdAt = createdDate()
-
         // generate shorURL
         const shortURL = createdUrl(shortCode)
 
         // create obj
-        const newUrl = new Url({ originalURL, shortURL, shortCode, createdAt })
+        const newUrl = new Url({ originalURL, shortURL, shortCode })
 
         try {
             await newUrl.save()
