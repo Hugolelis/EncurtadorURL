@@ -24,18 +24,17 @@ This is a RESTful API designed to handle URL shortening, redirection and link an
 ## 📂 Project Structure
 
 ```bash
-
 📦 backend
-| |├──src/
-| |├── connection/
-| |├── controllers/
-| |├── helpers/
-|  |├── interfaces/
-|  |├── types/
-|  |└── utils/
-| |├── models/
-| |├── routes/
-| |└── server.ts
+├── 📁 src/
+│   ├── 📁 connection/
+│   ├── 📁 controllers/
+│   ├── 📁 helpers/
+│   │   ├── 📁 interfaces/
+│   │   ├── 📁 types/
+│   │   └── 📁 utils/
+│   ├── 📁 models/
+│   ├── 📁 routes/
+│   └── server.ts
 ```
 ---
 
